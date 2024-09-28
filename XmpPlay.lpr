@@ -176,8 +176,8 @@ begin
       DrawText(Pchar('row: ' + IntToStr(fi.row)), 110, 280, 20, DARKGRAY);
       DrawText(Pchar('module channels: ' + IntToStr(mi.module^.chn)), 110, 300, 20, DARKGRAY);
       DrawText(Pchar('used channels: ' + IntToStr(fi.virt_used)), 110, 320, 20, DARKGRAY);
-      DrawText(Pchar('Title : ' +  moduleName), 110, 340, 20, DARKGRAY);
-      DrawText(Pchar('type : ' + format), 110, 360, 20, DARKGRAY);
+      DrawText(Pchar('Title: ' +  moduleName), 110, 340, 20, DARKGRAY);
+      DrawText(Pchar('type: ' + format), 110, 360, 20, DARKGRAY);
       end;
       if BadFile then DrawText(BadText, MeasureText(DropText,20) , 140 , 20, RED);
      except
